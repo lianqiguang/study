@@ -1,0 +1,20 @@
+C++/多线程/线程与锁.md
+  s_8b3ef3ccebc89a::t_dbfcc09a93be23 1-198,200
+  s_8b3ef3ccebc89a::t_e0c003f981b089 199
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "20caa84b0bc40cff94515fd66a9a5eba6e21b688",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
