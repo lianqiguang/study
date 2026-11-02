@@ -1,0 +1,29 @@
+C++/多线程/atomic与内存序.md
+  s_8b3ef3ccebc89a::t_b96a446fe09efc 117
+  s_8b3ef3ccebc89a::t_05ae9d8fcd39a5 21-22
+  s_8b3ef3ccebc89a::t_a7a377b4c5e8c1 133-134
+  s_8b3ef3ccebc89a::t_9cf26feb6dae85 73
+C++/新特性/C++11-17高频特性.md
+  s_8b3ef3ccebc89a::t_118ca474f33175 247-248
+  s_8b3ef3ccebc89a::t_6653c6fe84d1de 37-56
+  s_8b3ef3ccebc89a::t_db2de1fa8ddb4a 122
+  s_8b3ef3ccebc89a::t_c0f39dccb16ce1 195
+  s_8b3ef3ccebc89a::t_3bc0fb93404a3c 99
+  s_8b3ef3ccebc89a::t_8ce42f2756ec3a 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f256d899622f6dd96cc3052f12c3be33a894bd09",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
