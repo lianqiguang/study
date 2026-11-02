@@ -1,0 +1,29 @@
+C++/进阶/异常安全.md
+  s_8b3ef3ccebc89a::t_02b4cb7ade1946 198
+  s_8b3ef3ccebc89a::t_72f81d9f3d8a96 177
+C++/进阶/编译链接.md
+  s_8b3ef3ccebc89a::t_5c21c7402a2952 43
+  s_8b3ef3ccebc89a::t_73c0e53b9f5c16 48
+  s_8b3ef3ccebc89a::t_c1aed05d02dd20 36
+  s_8b3ef3ccebc89a::t_35886eee830189 3
+  s_8b3ef3ccebc89a::t_702fa6ba3e4d2d 52-53
+C++/进阶/模板与SFINAE.md
+  s_8b3ef3ccebc89a::t_d0110315138417 56-75
+  s_8b3ef3ccebc89a::t_93024bfd9415b8 119-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c19e1d3755186e0e5eb3a12b126884ddc38f3b47",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
