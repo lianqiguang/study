@@ -82,7 +82,7 @@ STL 是 C++ 面试的「基本功」，中级岗位不会只问「vector 怎么�
 - **`vector<bool>` 是特化**：按位存储，`operator[]` 返回代理对象而不是 `bool&`，不能取地址，行为与普通容器不同。
 - **`map::operator[]` 会插入默认值**：只查询时用 `find()` 或 `at()`。
 - **`priority_queue` 默认是大顶堆**：要小顶堆需指定 `std::greater<T>`。
-- **`stack` / `queue` 是适配器**：不是独立容器，默认底层是 `deque`，可以换 `vector` 或 `list`。
+- **`stack` / `queue` 是适配器**：不是独立容器。`stack` 默认底层是 `deque`，可以换 `vector` 或 `list`；`queue` 默认 `deque`，需要 `pop_front`，不能用 `vector`，可换 `list`。
 - **`unordered_map` 迭代顺序不确定**：不要依赖遍历顺序；rehash 会使迭代器失效。
 - **`size()` 返回无符号类型**：倒序遍历时 `i >= 0` 会下溢。
 
