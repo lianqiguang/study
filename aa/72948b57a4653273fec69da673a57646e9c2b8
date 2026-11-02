@@ -1,0 +1,21 @@
+C++/README.md
+  s_8b3ef3ccebc89a::t_1b8ced56441f92 18-22
+C++/基础/const-static-volatile.md
+  s_8b3ef3ccebc89a::t_63d894c1ac1aab 206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "aa72948b57a4653273fec69da673a57646e9c2b8",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
