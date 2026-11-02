@@ -1,0 +1,20 @@
+C++/README.md
+  s_8b3ef3ccebc89a::t_f04860c410f481 29
+  s_8b3ef3ccebc89a::t_276fe714d4572a 25-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1693fb6621134debf44cd63669372de92f17d7e5",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
