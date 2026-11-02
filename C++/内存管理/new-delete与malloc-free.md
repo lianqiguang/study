@@ -127,7 +127,7 @@ int main() {
 }
 ```
 
-类内重载只影响该类的 `new` 表达式，不影响 `new[]`（需要重载 `operator new[]`）和 placement new。
+类内重载只影响该类的 `new` 表达式：`new[]` 仍走 `operator new[]`（需要单独重载）；类作用域的 `operator new` 会被派生类继承，并**隐藏**全局的 placement new 重载，所以在类内写 `new (buf) Widget` 会找不到匹配的重载。要使用 placement new，需写 `::new (buf) Widget`，或在类内提供 `operator new(std::size_t, void*)` 转发到 `::operator new`。
 
 ### 7. nothrow new
 
