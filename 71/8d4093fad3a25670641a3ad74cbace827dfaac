@@ -1,0 +1,19 @@
+C++/内存管理/new-delete与malloc-free.md
+  s_8b3ef3ccebc89a::t_277a25e379e7ee 1-187
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "718d4093fad3a25670641a3ad74cbace827dfaac",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
