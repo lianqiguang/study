@@ -53,6 +53,26 @@ static_assert(Box<int*>::kind == 1);
 static_assert(Box<int>::kind == 2);
 ```
 
+**成员模板**：类内的成员函数也可以是模板，常用于 `emplace` 和转发构造：
+
+```cpp
+#include <iostream>
+#include <string>
+
+struct Printer {
+    template <typename T>
+    void print(const T& value) {
+        std::cout << value << '\n';
+    }
+};
+
+int main() {
+    Printer p;
+    p.print(42);
+    p.print(std::string("hi"));
+}
+```
+
 匹配时优先选择最特化的版本：`Box<int*>` 用偏特化，`Box<int>` 用全特化。
 
 ### 3. 非类型模板参数
@@ -93,6 +113,24 @@ auto sum(Ts... xs) {
 
 int main() {
     std::cout << count(1, 2.0, "x") << ' ' << sum(1, 2, 3) << '\n';
+}
+```
+
+C++11 风格的递归展开（C++17 起通常用折叠表达式替代）：
+
+```cpp
+#include <iostream>
+
+void print() {}   // 递归终止
+
+template <typename T, typename... Rest>
+void print(T first, Rest... rest) {
+    std::cout << first << '\n';
+    print(rest...);   // 展开剩余参数
+}
+
+int main() {
+    print(1, 2.5, "three");
 }
 ```
 
