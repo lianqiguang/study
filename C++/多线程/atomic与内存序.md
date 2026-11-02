@@ -18,6 +18,8 @@
 
 `std::atomic<T>` 提供对 `T` 的原子读、写、读改写操作。多个线程并发操作同一个 atomic 对象不会产生数据竞争。
 
+`std::atomic<T>` 要求 `T` 是 trivially copyable（平凡可复制）；`std::pair` 通常不满足，因此不能直接写成 `std::atomic<std::pair<...>>`。
+
 常用成员：
 
 - `load()` / `store()`：原子读写；
@@ -68,7 +70,7 @@ int main() {
 ```
 
 - `weak` 允许「伪失败」（即使值相等也可能返回失败），通常放在循环里；`strong` 不会伪失败。
-- **ABA 问题**：CAS 只比较值，如果值从 A 变成 B 又变回 A，CAS 会误以为没变过。解决方法是加版本号（`atomic<pair<T, uint64_t>>` 或带 tag 的指针）。
+- **ABA 问题**：CAS 只比较值，如果值从 A 变成 B 又变回 A，CAS 会误以为没变过。解决方法是加版本号，例如一个 trivially copyable 的 `struct Tagged { T value; std::uint64_t tag; };`，或把 tag 打包进一个机器字的指针。注意 16 字节的 atomic 是否无锁取决于平台（x86-64 需要 `cmpxchg16b`），版本号也不能解决无锁栈的内存回收问题（需要 hazard pointer / epoch 等）。
 
 ### 3. memory_order
 
@@ -112,7 +114,7 @@ int main() {
 }
 ```
 
-如果把两端都换成 `relaxed`，`data = 42` 和 `ready = true` 之间没有顺序保证，消费者可能看到 `ready == true` 但 `data == 0`——这仍然构成数据竞争：
+如果把两端都换成 `relaxed`，`data = 1` 和 `ready = true` 之间没有顺序保证，消费者可能看到 `ready == true` 但 `data == 0`。而消费者读取 `data` 与写者写入 `data` 之间没有 happens-before，这本身就构成数据竞争（UB）：
 
 ```cpp
 #include <atomic>
@@ -128,7 +130,8 @@ void writer() {
 
 void reader() {
     while (!ready.load(std::memory_order_relaxed)) {}
-    // data 可能仍是 0；这里的读写构成数据竞争
+    int observed = data;   // 与 writer 的 data = 1 构成数据竞争
+    (void)observed;        // 即使读到 1，也不代表这段代码安全
 }
 
 int main() {
