@@ -1,0 +1,28 @@
+C++/内存管理/new-delete与malloc-free.md
+  s_8b3ef3ccebc89a::t_6c66cca93c3d99 130
+C++/面向对象/构造析构与多继承.md
+  s_8b3ef3ccebc89a::t_cbdefdff34f21c 125,127
+  s_8b3ef3ccebc89a::t_4e348966d2492a 175
+  s_8b3ef3ccebc89a::t_ac8442ce55c9a6 59,61,63,69
+  s_8b3ef3ccebc89a::t_4cadb313ac60fc 163
+C++/内存管理/内存对齐与内存布局.md
+  s_8b3ef3ccebc89a::t_89b4428a5405ec 22,24
+  s_8b3ef3ccebc89a::t_d4a8c1ea9c22c8 88
+  s_8b3ef3ccebc89a::t_2106cf174cf14e 159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9b88d1ab5ff692ce7781ce7c38f5661b63a6be53",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
