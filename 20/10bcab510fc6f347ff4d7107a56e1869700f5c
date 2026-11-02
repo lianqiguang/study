@@ -1,0 +1,19 @@
+C++/多线程/atomic与内存序.md
+  s_8b3ef3ccebc89a::t_64a9b0589cbf84 1-213
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2010bcab510fc6f347ff4d7107a56e1869700f5c",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
