@@ -1,0 +1,20 @@
+C++/STL/容器底层与迭代器失效.md
+  s_8b3ef3ccebc89a::t_845855b36adec6 76
+  s_8b3ef3ccebc89a::t_4062a7897ca530 1-75,77-189
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d48aaa2536d62a6fa921825603ee86e2a19b7a09",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
