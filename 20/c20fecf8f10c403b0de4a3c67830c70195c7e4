@@ -1,0 +1,25 @@
+C++/README.md
+  s_8b3ef3ccebc89a::t_545a18678e76e8 1-44
+设计模式/单例模式.md
+  s_8b3ef3ccebc89a::t_ad537d66c89ac6 102
+面试题/基础.md
+  s_8b3ef3ccebc89a::t_3fb97952675955 1-12
+README.md
+  s_8b3ef3ccebc89a::t_582c9e85e16ee5 5-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "20c20fecf8f10c403b0de4a3c67830c70195c7e4",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
