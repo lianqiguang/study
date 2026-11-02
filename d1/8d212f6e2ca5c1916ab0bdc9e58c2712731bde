@@ -1,0 +1,19 @@
+C++/多线程/条件变量与线程池.md
+  s_8b3ef3ccebc89a::t_99827c6a4ca996 1-239
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d18d212f6e2ca5c1916ab0bdc9e58c2712731bde",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "unknown"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
