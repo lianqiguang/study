@@ -1,0 +1,19 @@
+算法/手写题/LRU缓存.md
+  s_8b3ef3ccebc89a::t_de2898d522b75d 1-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c0bafc62b9a8c5949c73a1d937c7798a69dd9123",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
