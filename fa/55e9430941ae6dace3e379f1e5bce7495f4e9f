@@ -1,0 +1,20 @@
+算法/进阶/图算法.md
+  s_8b3ef3ccebc89a::t_085b1f81cff0b9 238
+  s_8b3ef3ccebc89a::t_9c4e5b517cef82 67-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fa55e9430941ae6dace3e379f1e5bce7495f4e9f",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
