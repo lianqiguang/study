@@ -52,6 +52,11 @@ class LRUCache {
 public:
     explicit LRUCache(int capacity) : cap_(capacity) {}
 
+    LRUCache(const LRUCache&) = delete;              // 拷贝会让 map 的迭代器指向原链表
+    LRUCache& operator=(const LRUCache&) = delete;
+    LRUCache(LRUCache&&) = default;                  // 移动保持节点地址，安全
+    LRUCache& operator=(LRUCache&&) = default;
+
     int get(int key) {
         auto it = map_.find(key);
         if (it == map_.end()) return -1;
@@ -120,6 +125,7 @@ A：`put` 直接返回，`get` 永远 -1；实现里加 `cap_ <= 0` 的判断，
 - 淘汰时先 `pop_back` 再删哈希表，留下悬空迭代器。
 - `put` 已存在 key 时新建节点，导致链表和哈希表不一致。
 - 忽略容量 0 的边界。
+- 允许默认拷贝：`map_` 里的迭代器会指向原对象的链表，拷贝后使用是未定义行为；应删除拷贝（移动是安全的）。
 - 能说出分片、读写锁、TTL 等工程扩展，是加分项。
 
 ## 相关文章
