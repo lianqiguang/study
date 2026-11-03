@@ -1,0 +1,19 @@
+算法/手写题/二分查找.md
+  s_8b3ef3ccebc89a::t_b36d9fab05ace8 1-206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f69d076860c21915827d6df4505a6db2346897d3",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
