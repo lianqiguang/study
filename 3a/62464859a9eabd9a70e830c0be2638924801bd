@@ -1,0 +1,22 @@
+算法/进阶/滑动窗口与双指针.md
+  s_8b3ef3ccebc89a::t_6d5497d937fc5e 17-19,28-40,43
+  s_8b3ef3ccebc89a::t_f3c1dfc918ec0f 3
+算法/进阶/回溯.md
+  s_8b3ef3ccebc89a::t_6fc424ece49e15 199
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3a62464859a9eabd9a70e830c0be2638924801bd",
+  "prompts": {},
+  "sessions": {
+    "s_8b3ef3ccebc89a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29116ceb-4b03-4c20-8e1e-ffdea5258f1c",
+        "model": "deepseek-v4-1-flash-261017"
+      },
+      "human_author": "lianqiguang <lianqiguang@yaxon.com>"
+    }
+  }
+}
